@@ -16,7 +16,7 @@ class crawler:
         return html
 
     def getPic(self, html) :
-        rule = r'<img src="(.*?)"'
+        rule = r'img src="(.*?)"'
         pic = re.compile(rule)
         pics = re.findall(pic, html)
         for each in pics:
