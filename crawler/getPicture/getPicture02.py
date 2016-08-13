@@ -32,9 +32,9 @@ location指明下载位置。
 if __name__ == '__main__' :
     crawlers = crawler()
     
-    lurl = 'http://i.meizitu.net/2016/08/10b'
+    lurl = 'http://i.meizitu.net/2016/08/11b'
     rurl = '.jpg'
-    location = '/home/dqj/picture/crawler/limengting/'
+    location = '/home/dqj/picture/crawler/xialingmang/'
     num = 50
 
     crawlers.download(num, lurl, rurl, location)
