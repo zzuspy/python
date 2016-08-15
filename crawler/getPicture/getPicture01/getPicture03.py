@@ -7,7 +7,7 @@ import HTMLParser
 import os
 
 
-base_path = r'/home/dqj/picture/crawler/'
+base_path = r'/home/dqj/picture/crawler/1/'
 
 def judge(path) :
     if not os.path.exists(path) :
@@ -69,7 +69,7 @@ class crawler:
 '''
 
 if __name__ == '__main__' :
-    url = 'http://www.mzitu.com/hot'
+    url = 'http://www.mzitu.com/'
     crawlers = crawler(url)
     crawlers.run()
 
